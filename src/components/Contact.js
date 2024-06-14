@@ -1,0 +1,37 @@
+import React from 'react';
+import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope as faEnvelopeSolid } from '@fortawesome/free-solid-svg-icons';
+import { faLaptop } from '@fortawesome/free-solid-svg-icons';
+
+const Contact = () => {
+    return (
+        <div className="contact-container">
+            <h2>Contact Details</h2>
+            <div className="contact-info">
+                <p>Phone: +91-6379993561</p>
+                <p>Email: <a href="mailto:vishnuprasad.contact@gmail.com">vishnuprasad.contact@gmail.com</a></p>
+            </div>
+            <div className="contact-buttons">
+                <a href="https://www.linkedin.com/in/vishnuprasad5" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+                    </button>
+                </a>
+                <a href="https://github.com/Vishnu51cse" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        <FontAwesomeIcon icon={faGithub} /> GitHub
+                    </button>
+                </a>
+                <a href="https://leetcode.com/vishnu5124/" target="_blank" rel="noopener noreferrer">
+                    <button>
+                        <FontAwesomeIcon icon={faLaptop} /> LeetCode
+                    </button>
+                </a>
+            </div>
+        </div>
+    );
+};
+
+export default Contact;
