@@ -11,6 +11,11 @@ const projects = [
         name: "Django Login and Signup Authentication",
         description: "Implemented authentication mechanisms using Django framework.",
         githubUrl: "https://github.com/Vishnu51cse/Django_Authentication"
+    },
+    {
+        name: "Smart Grade Convertor using Html,Css,Js",
+        description:"Efficiently convert your marks to grades.",
+        githubUrl:"https://github.com/Vishnu51cse/Web"
     }
 ];
 
